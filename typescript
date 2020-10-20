@@ -1,0 +1,7 @@
+Script started on ma. 19. okt. 2020 kl. 15.03 +0200
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ cp ~/../tn/public_html/pb1070/oblig2/brev.docx .
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ ls
+adresser.xlsx  brev.docx  deltagere.csv  [0m[01;32mhent_adresser.sh[0m  [01;32mlag_brev.sh[0m  [01;32msend_e-post.sh[0m  tidsfil  typescript
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ exit
+
+Script done on ma. 19. okt. 2020 kl. 15.03 +0200
