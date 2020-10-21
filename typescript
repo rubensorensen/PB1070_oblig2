@@ -1,7 +1,49 @@
-Script started on ma. 19. okt. 2020 kl. 15.03 +0200
-]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ cp ~/../tn/public_html/pb1070/oblig2/brev.docx .
+Script started on on. 21. okt. 2020 kl. 19.42 +0200
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ cp ~/../tn/public_html/pb1070/oblig2/brev,[K.docx .
 ]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ ls
-adresser.xlsx  brev.docx  deltagere.csv  [0m[01;32mhent_adresser.sh[0m  [01;32mlag_brev.sh[0m  [01;32msend_e-post.sh[0m  tidsfil  typescript
+brev.docx  tidsfil  typescript
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ unzip brev.dox[Kcx
+Archive:  brev.docx
+  inflating: [Content_Types].xml     
+  inflating: _rels/.rels             
+  inflating: word/document.xml       
+  inflating: word/_rels/document.xml.rels  
+ extracting: word/media/image1.png   
+ extracting: word/media/image2.png   
+  inflating: word/theme/theme1.xml   
+  inflating: word/settings.xml       
+  inflating: word/styles.xml         
+  inflating: word/webSettings.xml    
+  inflating: word/fontTable.xml      
+  inflating: docProps/core.xml       
+  inflating: docProps/app.xml        
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ ls
+brev.docx  [Content_Types].xml  [0m[01;34mdocProps[0m  [01;34m_rels[0m  tidsfil  typescript  [01;34mword[0m
+]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ tree
+[01;34m.[00m
+├── brev.docx
+├── [Content_Types].xml
+├── [01;34mdocProps[00m
+│   ├── app.xml
+│   └── core.xml
+├── [01;34m_rels[00m
+├── tidsfil
+├── typescript
+└── [01;34mword[00m
+    ├── document.xml
+    ├── fontTable.xml
+    ├── [01;34mmedia[00m
+    │   ├── [01;35mimage1.png[00m
+    │   └── [01;35mimage2.png[00m
+    ├── [01;34m_rels[00m
+    │   └── document.xml.rels
+    ├── settings.xml
+    ├── styles.xml
+    ├── [01;34mtheme[00m
+    │   └── theme1.xml
+    └── webSettings.xml
+
+6 directories, 15 files
 ]0;237109@web01: ~/oblig2[01;32m237109@web01[00m:[01;34m~/oblig2[00m$ exit
 
-Script done on ma. 19. okt. 2020 kl. 15.03 +0200
+Script done on on. 21. okt. 2020 kl. 19.43 +0200
