@@ -6,7 +6,7 @@ adresser:hent_adresser.sh adresser.xlsx
 
 zip:makefile deltagere.csv typescript tidsfil lag_brev.sh hent_adresser.sh send_e-post.sh adresser.xlsx brev.docx
 	mkdir oblig2-237109
-	find . ! -regex '.*/oblig2-237109' ! -regex '.' -exec cp -r '{}' oblig2-237109 \;
+	cp deltagere.csv typescript tidsfil lag_brev.sh hent_adresser.sh send_e-post.sh adresser.xlsx brev.docx makefile oblig2-237109/
 	tar czvf oblig2-237109.tar.gz oblig2-237109
 	rm -rf oblig2-237109
 
