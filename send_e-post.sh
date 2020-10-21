@@ -12,5 +12,6 @@ while read line; do
 	mailbody=$(echo $mailbody | sed "s/=meg=/Phishermann/g");
 
 	echo $mailbody | mutt -s "oblig2" $address -a brev/vedlegg/bilde*;
+	echo "E-post sendt til $name";
 done < adresser.csv
 echo "E-post(er) har blitt sendt";
