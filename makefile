@@ -17,7 +17,6 @@ send:brev adresser send_e-post.sh
 	./send_e-post.sh
 
 innlevering:sign
-	rm oblig2-237109.tar.gz
 
 clean:
 	rm -rf brev adresser.csv oblig2-237109 oblig2-237109.tar.gz oblig2-237109.tar.gz.gpg
